@@ -13,11 +13,24 @@
 }
 
 .banner {
-  height: 45vh;
+  height: 60vh;
   width: 100%;
-  background-position: center center;
-  background-size: cover;
   position: relative;
   top: 10%;
-  left: 0;
+  left: 0%;
+}
+.bnImg00 {
+  width: 60%;
+  height: 45vh;
+  background-position: center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+
+@media only screen and (min-width: 481px) {
+  body {
+    background-color: lightblue;
+  }
 }

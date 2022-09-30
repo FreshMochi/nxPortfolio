@@ -8,14 +8,14 @@ function App() {
         
       </header>
       <div 
-      className="banner"
-      style={{backgroundImage: `url(${bannerImg})`}}>
-        <div className='bnImg00'></div>
-        <div className='bnImg00'></div>
-        <div className='bnImg00'></div>
-        <div className='bnImg00'></div>
-        <div className='bnImg00'></div>
-        <div className='bnImg00'></div>
+      className="banner">
+        <div className='bnImg00'
+        style={{backgroundImage: `url(${bannerImg})`}}></div>
+        <div className='bnImg01'></div>
+        <div className='bnImg02'></div>
+        <div className='bnImg03'></div>
+        <div className='bnImg04'></div>
+        <div className='bnImg05'></div>
       </div>
     </div>
   );
